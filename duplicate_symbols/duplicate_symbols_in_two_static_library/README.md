@@ -1,1 +1,2 @@
 这是两个静态链接库含有相同符号的示例，编译时会提示符号重复定义无法解析
+libFirst和libSecond中都含有staticlib_duplicate_function这个函数，所以会出现重复定义
