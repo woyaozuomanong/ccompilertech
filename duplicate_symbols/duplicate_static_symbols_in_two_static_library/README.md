@@ -1,0 +1,2 @@
+这是两个静态链接库含有相同静态符号的示例，因为静态符号作用域被约束在单个编译单元内部，所以链接是不会冲突。
+libFirst和libSecond中都含有static local_staticlib_duplicate_function这个函数，但因为是static属性的静态函数，所以不会冲突
